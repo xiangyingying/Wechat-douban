@@ -1,0 +1,7 @@
+image{
+    width: 200rpx;height: 200rpx;
+}
+.name{
+    font-size: 30rpx;
+    color: #7E807F;
+}

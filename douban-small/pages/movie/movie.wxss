@@ -1,0 +1,9 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: 20rpx 0;
+}
+.more{
+    color: #405F80;
+    font-size: 30rpx;
+}

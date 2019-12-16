@@ -1,0 +1,102 @@
+.scroll{
+    white-space: nowrap;
+}
+.scroll .scroll-item{
+    display: inline-block;
+    margin-left: 30rpx;
+}
+.item{
+    width:200rpx;height: 400rpx;
+}
+.bg{
+    width: 100%;height: 400rpx;
+}
+.head{
+    position: relative;
+}
+.head .blur{
+    position: absolute;
+    width: 100%;
+    height: 400rpx;
+    background: rgba(51, 51, 51, .3);
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(10px);
+}
+.movie-info{
+    position: absolute;
+    top: 50rpx;
+    left: 30rpx;
+}
+.title{
+    color: white;
+    font-size:50rpx;
+    letter-spacing: .2em;
+}
+.year-time{
+    color: white;
+    margin: 40rpx 0 60rpx 0;
+}
+.detail-info{
+    font-size: 30rpx;
+}
+.num{
+    color: #E32A4E;
+    margin-right: 20rpx;
+}
+.word{
+    color: #655657;
+    margin-right: 30rpx;
+}
+.pos{
+    width: 200rpx;height:250rpx;
+    position: absolute;
+    right: 20rpx;top:200rpx;
+}
+.content{
+    width: 700rpx;
+    padding: 30rpx 50rpx;
+    line-height: 60rpx;
+    font-size: 30rpx;
+    color:#CDCDCD ;
+    border-bottom: 1px solid #DADADA;
+}
+.content-title{
+    color:#A1A1A1;
+    font-weight: bold;
+    font-size: 35rpx;
+    margin-bottom: 40rpx;
+}
+.artist text,.score text:nth-child(3){
+    color:#9F9F9F ;
+}
+.artist text{
+    margin-left: 30rpx;
+}
+.score text{
+    margin-right: 30rpx;
+}
+.introduce-title{
+    color:#C5C5C5 ;
+    font-size: 35rpx;
+}
+.introduce-content{
+    color:rgb(131, 131, 131);
+    font-size: 30rpx;
+    margin-top: 50rpx;
+}
+.introduce{
+    border-bottom: 1px solid #DADADA;
+    padding: 50rpx 0;
+    padding-left: 50rpx;
+    line-height: 30rpx;
+}
+.actor-info{
+    margin-left: 50rpx;
+    color:#C5C5C5 ;
+    font-size: 35rpx;
+    margin-top: 50rpx;
+}
+.score .start{
+    width: 35rpx;height: 35rpx;
+}

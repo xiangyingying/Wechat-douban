@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "v-item":"/components/MovieIcon/MovieIcon"
+  }
+}

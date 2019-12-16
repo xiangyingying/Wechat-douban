@@ -1,0 +1,11 @@
+.head{
+    text-align: center;
+}
+.logo{
+    width: 200rpx;height: 200rpx;
+    border-radius: 50%;
+}
+.map{
+    height: 700rpx;
+    width: 750rpx;
+}

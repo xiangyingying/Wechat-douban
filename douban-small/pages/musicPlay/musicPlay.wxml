@@ -1,0 +1,12 @@
+<view class="container">
+    <image src="{{pic}}"></image>
+    <view class="item" 
+    >
+        <image class="shou {{isPlay?'move':'unmove'}}" src="/images/shou.png"></image>
+        <image class="pan {{isPlay?'running':'pause'}}" src="/images/pan.png"></image>
+        <image class="item-bg {{isPlay?'running':'pause'}}" src="{{pic}}"></image>
+        <view class="lyric">{{title}}</view>
+        <image class="play" src="{{isPlay?'/images/播放.png':'/images/暂停.png'}}" bind:tap="handlePlay"></image>
+        <button class="back">vConsole</button>
+    </view>
+</view>

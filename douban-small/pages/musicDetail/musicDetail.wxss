@@ -1,0 +1,26 @@
+.bg image{
+    width: 100rpx;height: 100rpx;
+}
+.play image{
+    width:50rpx;height: 50rpx;
+}
+.item{
+    display: flex;
+    padding: 20rpx 30rpx;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+.bg{
+    width:100rpx;
+}
+.nickname{
+    width: 2050rpx;
+    margin-left: 100rpx;
+    margin-right: 80rpx;
+    font-size: 30rpx;
+}
+.title{
+    line-height: 100rpx;
+   padding-left: 30rpx;
+    background: #EFEFEF;
+}

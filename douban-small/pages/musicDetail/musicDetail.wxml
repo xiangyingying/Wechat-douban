@@ -1,0 +1,13 @@
+<view class="container">
+    <image src="{{musics.coverImgUrl}}"></image>
+    <view class="title">播放列表</view>
+    <view class="item" wx:for="{{musics.tracks}}" wx:key="item">
+        <view class="bg">
+            <image src="{{item.al.picUrl}}"></image>
+        </view>
+        <view class="nickname">{{item.name}}</view>
+        <view class="play" bind:tap="handlePlay" data-pic="{{item.al.picUrl}}" data-title="{{item.name}}" data-id="{{item.id}}">
+            <image src="{{isPlay && playId==item.id?'/images/icons/play.png':'/images/icons/pause.png'}}"></image>
+        </view>
+    </view>
+</view>

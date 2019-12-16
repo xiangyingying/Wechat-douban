@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="bg">
+        <image src="/images/avatar/4.png" />
+    </view>
+    <text class="">Hello,七月</text>
+    <button bind:tap="handleClick">开启小程序之旅</button>
+</view>
+

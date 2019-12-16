@@ -1,0 +1,16 @@
+<view class="head">
+    <image bind:tap="handleImage"
+    mode="scaleToFill"
+     src="{{imageUrl}}" class="logo"></image>
+</view>
+<map class="map" 
+longitude="{{longitude}}" 
+latitude="{{latitude}}"
+scale="{{scale}}"
+polyline="{{polyline}}"
+show-compass="{{showCompass}}"
+markers="{{markers}}"
+circles	="{{circles}}"
+show-location="{{location}}"
+></map>
+

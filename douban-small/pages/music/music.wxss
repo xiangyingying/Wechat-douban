@@ -1,0 +1,27 @@
+/* .title{
+    display: flex;
+    justify-content: space-between;
+    margin: 20rpx 0;
+}
+.more{
+    color: #405F80;
+    font-size: 30rpx;
+}
+.icon image{
+    width: 36rpx;height: 36rpx;
+}
+
+.icon{
+    position: absolute;
+    top: 3rpx;right: 30rpx;
+    color: white;
+    font-size: 30rpx;
+}
+v-item{
+    position: relative;
+} */
+.slot-icon{
+    width: 36rpx;height: 36rpx;
+    vertical-align: bottom;
+    margin-right: 10rpx;
+}

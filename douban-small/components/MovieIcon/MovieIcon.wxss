@@ -1,0 +1,12 @@
+.bg{
+    width: 200rpx;height: 200rpx;
+}
+.item{
+    width: 200rpx;
+}
+.start image{
+    width: 35rpx;height: 35rpx;
+}
+.name{
+    font-size: 30rpx;
+}

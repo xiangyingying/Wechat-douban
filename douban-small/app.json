@@ -1,0 +1,54 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/read/read",
+      "pages/movie/movie",
+      "pages/readDetail/readDetail",
+      "pages/movieDetail/movieDetail",
+      "pages/movie-detail/movie-detail",
+      "pages/my/my",
+      "pages/music/music",
+      "pages/musicMore/musicMore",
+      "pages/musicDetail/musicDetail",
+      "pages/musicPlay/musicPlay"
+    ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#405F80",
+      "navigationBarTitleText": "七月的不可思议",
+      "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "color": "#666",
+      "selectedColor": "#3785F9",
+      "position": "bottom",
+      "borderStyle": "black",
+      "list": [
+        {
+         "pagePath": "pages/read/read",
+          "text": "阅读",
+          "iconPath": "/images/tab/yuedu.png",
+          "selectedIconPath": "/images/tab/yuedu_hl.png"
+        },
+        {
+          "pagePath": "pages/movie/movie",
+          "text": "电影",
+          "iconPath": "/images/tab/dianying.png",
+          "selectedIconPath": "/images/tab/dianying_hl.png"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "/images/icon/my.png",
+          "selectedIconPath": "/images/icon/my_h1.png"
+        },
+        {
+          "pagePath": "pages/music/music",
+          "text": "音乐",
+          "iconPath": "/images/icon/music.png",
+          "selectedIconPath": "/images/icon/music_h1.png"
+        }
+      ]
+    },
+    "sitemapLocation": "sitemap.json"
+  }

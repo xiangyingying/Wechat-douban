@@ -1,0 +1,125 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.3",
+	"appid": "wx6f861938a95c7f43",
+	"projectname": "douban-small",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": 0,
+					"name": "read",
+					"pathName": "pages/read/read",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "movie",
+					"pathName": "pages/movie/movie",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "movie-detail",
+					"pathName": "pages/movie-detail/movie-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "my",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "movie-detail",
+					"pathName": "pages/movie-detail/movie-detail",
+					"query": "id=30166972",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "music",
+					"pathName": "pages/music/music",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "musicMore",
+					"pathName": "pages/musicMore/musicMore",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "musicDetail",
+					"pathName": "pages/musicDetail/musicDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "musicPlay",
+					"pathName": "pages/musicPlay/musicPlay",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "musicDetail",
+					"pathName": "pages/musicDetail/musicDetail",
+					"query": "id=2668602997",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "musicDetail",
+					"pathName": "pages/musicDetail/musicDetail",
+					"query": "id=2668602997",
+					"scene": null
+				}
+			]
+		}
+	}
+}

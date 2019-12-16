@@ -1,0 +1,40 @@
+/* image{
+    width: 200rpx;height: 200rpx;
+}
+.name{
+    font-size: 30rpx;
+    color: #7E807F;
+} */
+.play-count image{
+    width:24rpx;
+    height: 24rpx;
+}
+.cover>image{
+    width:230rpx;
+    height: 230rpx;
+}
+.item{
+    width:230rpx;
+    position: relative;
+    margin-top: 20rpx;
+    font-size: 28rpx;
+}
+.play-count{
+    position: absolute;
+    right:0;
+    top:5rpx;
+    color:#fff;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.nav{
+    font-size: 30rpx;
+    margin-top: 20rpx;
+    border-top: 1rpx solid #eee;
+    display: flex;
+    justify-content: space-between;
+    padding:20rpx;
+}

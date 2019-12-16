@@ -1,0 +1,51 @@
+.head{
+    display: flex;
+    align-items: center;
+    height: 80rpx;
+}
+.head image{
+    width:50rpx;
+    height: 50rpx;
+}
+.head text{
+    font-size: 28rpx;
+    margin-left: 40rpx;
+    color:#666;
+}
+.bg{
+    width:100%;
+    height: 400rpx;
+}
+.icon{
+    width:30rpx;
+    height: 30rpx;
+}
+.content{
+    font-size: 34rpx;
+    color:#666;
+}
+.title{
+    padding:20rpx 0;
+    font-size: 40rpx;
+    font-weight: bold;
+    color:#333;
+    line-height: 60rpx;
+}
+.end{
+    font-size: 28rpx;
+    display: flex;
+    align-items: center;
+    height: 50rpx;
+    color:#666;
+}
+.end text{
+    margin:0 20rpx;
+}
+.item{
+    padding:20rpx;
+    margin-top: 40rpx;
+    background: #fff;
+}
+page{
+    background: #eee;
+}

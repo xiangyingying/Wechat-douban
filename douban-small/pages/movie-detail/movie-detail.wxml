@@ -1,0 +1,40 @@
+<wxs src="../../utils/filter.wxs" module="tools"></wxs>
+<view class="head">
+    <image class="bg" src="{{movies.images.small}}" mode="aspectFill"></image>
+    <view class="blur"></view>
+</view>
+<view class="movie-info">
+    <view class="title">{{movies.original_title}}</view>
+    <view class="year-time">{{movies.countries}} · {{movies.year}}</view>
+    <view class="detail-info">
+        <text class="num">{{movies.wish_count}}</text>
+        <text class="word">人喜欢</text>
+        <text class="num">{{movies.comments_count}}</text>
+        <text class="word">评论</text>
+    </view>  
+</view>
+<image class="pos" src="{{movies.images.small}}" data-url="{{movies.images.small}}" bind:tap="handleImage"></image>
+<view class="content">
+    <view class="content-title">{{movies.original_title}}</view>
+    <view class="score">
+        <text>评分</text>
+        <image class="start" wx:for="{{tools.formatStar(movies.rating.stars)}}" wx:key="{{item}}" src="{{item==1?'/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+        <text>{{movies.rating.average}}</text>
+    </view>
+    <view class="artist">导演<text>{{movies.directors[0].name}}</text></view>
+    <view class="artist">影人<text wx:for="{{movies.casts}}" wx:key="item">{{item.name}} /</text></view>
+    <view class="artist">类型<text wx:for="{{movies.tags}}" wx:key="item">{{item}}/</text></view>
+</view>
+<view class="introduce">
+    <view class="introduce-title">剧情简介</view>
+    <view class="introduce-content">{{movies.summary}}</view>
+</view>
+<view class="actor-info">
+    <view class="actor">影人</view>
+    <scroll-view scroll-x="{{x}}" class="scroll">
+        <view class="scroll-item" wx:for="{{movies.casts}}" wx:key="{{item.name}}">
+            <image bind:tap="handleImage" src="{{item.avatars.small}}" class="item" data-url="{{item.avatars.small}}"></image>
+            <view>{{item.name}}</view>
+        </view>
+    </scroll-view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "文与字",
+  "usingComponents": {
+    "v-item":"/components/ItemIcon/ItemIcon"
+  }
+}

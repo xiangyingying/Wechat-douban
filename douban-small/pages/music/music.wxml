@@ -1,0 +1,25 @@
+<!--  <wxs src="../../utils/filter.wxs" module="tools"></wxs>
+<view class="item" wx:for="{{musics}}" wx:for-item="list" wx:key="item.id">
+        <view class="title">          
+                <text>{{list.title}}</text>          
+                <text class="more" bind:tap="handleMore" data-subtitle="{{list.subTitle}}" data-title="{{list.title}}">更多></text>
+        </view>          
+        <view class="flex-grid">           
+                <v-item  wx:for="{{list.data}}" wx:key="item.id" data="{{item}}">    
+                    <view class="icon" slot="icon">
+                        <image src="/images/p0.png"></image>{{tools.num(item.playCount)}}
+                    </view>   
+               </v-item>       
+        </view>          
+</view> -->
+<v-item title="热门歌曲" data="{{hotSongs}}" titleurl="{{titleurl.hotSongs.subtitle}}" data-subtitle="{{titleurl.hotSongs.subtitle}}" bind:tap="handleTitle">
+        <image class="slot-icon" slot="icon" src="/images/icons/recmd@2x.png"></image>
+</v-item>
+<v-item title="最新音乐" data="{{newSongs}}" titleurl="{{titleurl.newSongs.subtitle}}">
+        <image class="slot-icon" slot="icon" src="/images/icons/newest@2x.png"></image>
+</v-item>
+<v-item title="主播电台" data="{{djSongs}}" titleurl="{{titleurl.djSongs.subtitle}}">
+        <image class="slot-icon" slot="icon" src="/images/icons/radio@2x.png"></image>
+</v-item>
+
+

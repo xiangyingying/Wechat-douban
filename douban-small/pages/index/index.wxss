@@ -1,0 +1,14 @@
+.container,page{
+    height: 100%;
+    background: #B3D4DB;
+    text-align: center;
+}
+image{
+    width: 200rpx;height: 200rpx;
+    margin-top: 100rpx;
+}
+button{
+    width: 500rpx;
+    background:#B3D4DB;
+    margin-top:500rpx;
+}

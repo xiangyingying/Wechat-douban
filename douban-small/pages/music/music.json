@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#C1360D",
+  "usingComponents": {
+    "v-item":"/components/MusicItem/MusicItem"
+  }
+}

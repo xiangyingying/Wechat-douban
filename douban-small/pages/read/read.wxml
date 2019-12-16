@@ -1,0 +1,8 @@
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" autoplay="false" 
+    indicator-active-color="{{active}}"
+>
+<swiper-item wx:for="{{banners}}" wx:key="{{item}}">
+    <image src="{{item.imageUrl}}" />
+</swiper-item>
+</swiper>
+<v-item data="{{item}}" wx:for="{{postList}}" wx:key="{{item}}"></v-item>
